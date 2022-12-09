@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:padding="3pt"
+
+    android:textAlignment="center">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="burger"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="#FF5722"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="216dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sasa" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="cheesy burger"
+                android:textAlignment="center"
+                android:textColor="#FF5722"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="100 le"
+                android:textAlignment="center"
+                android:textColor="#FF5722"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/button101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FF5722"
+                android:onClick="toconfirm"
+                android:text="order one" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView44"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sasa" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="257dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="attack burger"
+                android:textAlignment="center"
+                android:textColor="#FF5722"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="100 le"
+                android:textAlignment="center"
+                android:textColor="#FF5722"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FF5722"
+                android:onClick="toconfirm2"
+                android:text="order one" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sasa" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:text="bigtesty"
+                android:textAlignment="center"
+                android:textColor="#FF5722"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="100 le"
+                android:textAlignment="center"
+                android:textColor="#FF5722"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/button121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FF5722"
+                android:onClick="toconfirm3"
+                android:text="order one"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

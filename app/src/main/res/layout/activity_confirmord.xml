@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".confirmord">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/logo">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="295dp"
+            android:layout_height="36dp"
+            android:text="another order?"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.456"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.544"
+            android:textColor="#FF5722"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="228dp"
+            android:layout_height="59dp"
+            android:backgroundTint="#FF5722"
+            android:onClick="topastamenu"
+            android:text="back to order pasta"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.837" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="377dp"
+            android:layout_height="51dp"
+            android:text="your order has been confirmed"
+            android:textColor="#FF5722"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.468" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="222dp"
+            android:layout_height="54dp"
+            android:backgroundTint="#FF5722"
+            android:onClick="toburger"
+            android:text="back to order burger"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.636" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="219dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#FF5722"
+            android:onClick="backtopizza"
+            android:text="back to order pizza"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.453"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.727" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="228dp"
+            android:layout_height="57dp"
+            android:backgroundTint="#FF5722"
+            android:onClick="tofinal"
+            android:text="done?"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.951" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
