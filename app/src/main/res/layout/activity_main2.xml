@@ -17,34 +17,47 @@
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
-            android:layout_width="402dp"
-            android:layout_height="50dp"
+            android:layout_width="325dp"
+            android:layout_height="52dp"
+
+            android:background="@drawable/rounded"
+            android:backgroundTint="#FFFFFF"
             android:ems="10"
-            android:hint="Enter your email"
+
+            android:gravity="center"
+            android:hint="User Name"
             android:inputType="textEmailAddress"
-            android:textColorHint="@color/purple_200"
+            android:textColorHint="#4E5254"
+
             android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintHorizontal_bias="0.383"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.459"
             tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/editTextTextPassword"
-            android:layout_width="400dp"
+            android:layout_width="325dp"
             android:layout_height="52dp"
+
+            android:background="@drawable/rounded"
+            android:backgroundTint="#FFFFFF"
             android:ems="10"
-            android:hint="Enter your password"
+
+            android:gravity="center"
+            android:hint="Password"
             android:inputType="textPassword"
-            android:textColorHint="@color/purple_200"
+            android:textColorHint="#4E5254"
+
             android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.596"
+            app:layout_constraintVertical_bias="0.569"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="4dp" />
+            tools:layout_editor_absoluteX="33dp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button3"
@@ -65,34 +78,37 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="188dp"
-            android:layout_height="35dp"
+            android:layout_width="238dp"
+            android:layout_height="45dp"
 
-            android:text="If Donot have Email"
+            android:gravity="center"
+            android:text="Don't have an Account?"
             android:textSize="20dp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.134"
+            app:layout_constraintHorizontal_bias="0.017"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.8" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button4"
             android:layout_width="124dp"
             android:layout_height="48dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="22dp"
-            android:layout_marginEnd="29dp"
             android:layout_marginBottom="123dp"
+            android:background="@drawable/rounded"
             android:backgroundTint="#FF5722"
             android:onClick="tosignup2"
             android:text="Sign up"
+            android:textColor="#FFFFFF"
             android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.861"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button3"
             app:layout_constraintVertical_bias="0.0"
             tools:ignore="MissingConstraints" />
@@ -105,17 +121,18 @@
             android:layout_marginTop="17dp"
             android:layout_marginEnd="37dp"
             android:layout_marginBottom="58dp"
-            android:backgroundTint="#FF5722"
             android:background="@drawable/rounded"
+            android:backgroundTint="#FF5722"
             android:onClick="foe"
-            android:text="Forget your password"
+            android:text="Forget your password ? "
+            android:textColor="#FFFFFF"
             android:textSize="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.596"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button4"
-            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintVertical_bias="1.0"
             tools:ignore="MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

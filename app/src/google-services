@@ -1,14 +1,13 @@
 {
   "project_info": {
     "project_number": "262294504415",
-    "firebase_url": "https://restuarant-app-455f7-default-rtdb.europe-west1.firebasedatabase.app",
     "project_id": "restuarant-app-455f7",
     "storage_bucket": "restuarant-app-455f7.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:262294504415:android:122fbe8a448e59ec83ba6a",
+        "mobilesdk_app_id": "1:262294504415:android:4b6cdb38fc7144bd83ba6a",
         "android_client_info": {
           "package_name": "com.example.anew"
         }
